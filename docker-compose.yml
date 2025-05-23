@@ -1,0 +1,31 @@
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql123
+      MYSQL_DATABASE: sndentalcollege_dental
+      MYSQL_USER: sndentalcollege_dental
+      MYSQL_PASSWORD: dentMMetron@123
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./sndentalcollege_dental.sql:/docker-entrypoint-initdb.d/sndentalcollege_dental.sql
+
+  web:
+    build: .
+    container_name: sndentalcollege_dental_app
+    ports:
+      - "9075:80"
+    volumes:
+      - ./sndentalcollege_dental:/var/www/html
+    depends_on:
+      - db
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_DB: sndentalcollege_dental
+      MYSQL_USER: sndentalcollege_dental
+      MYSQL_PASSWORD: dentMMetron@123
+
+volumes:
+  db_data:
