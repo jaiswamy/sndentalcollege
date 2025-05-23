@@ -1,0 +1,358 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202106 will be lost/reset.
+# Last config file used to build this data file was /home/sndentalcollege/domains/sndentalcollege.org/awstats/.data/awstats.sndentalcollege.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2123                
+POS_TIME 2795                
+POS_VISITOR 7967                
+POS_DAY 9695                
+POS_DOMAIN 3468                
+POS_LOGIN 3698                
+POS_ROBOT 3853                
+POS_WORMS 4312                
+POS_EMAILSENDER 4443                
+POS_EMAILRECEIVER 4586                
+POS_SESSION 9835                
+POS_SIDER 10002               
+POS_FILETYPES 4721                
+POS_DOWNLOADS 4935                
+POS_OS 5382                
+POS_BROWSER 5580                
+POS_SCREENSIZE 6007                
+POS_UNKNOWNREFERER 6081                
+POS_UNKNOWNREFERERBROWSER 6334                
+POS_ORIGIN 6582                
+POS_SEREFERRALS 6717                
+POS_PAGEREFS 6880                
+POS_SEARCHWORDS 7082                
+POS_KEYWORDS 7234                
+POS_MISC 2459                
+POS_ERRORS 7293                
+POS_CLUSTER 3554                
+POS_SIDER_403 7424                
+POS_SIDER_400 7506                
+POS_SIDER_404 7588                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210702095057 1 0 10065944490641
+FirstTime 20210601003344
+LastTime 20210614164925
+LastUpdate 20210703033956 1 0 0 0 0
+TotalVisits 43                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 43                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 8193 12 133 6782566
+1 1 1 35925 16 25 347860
+2 0 0 0 7 13 704459
+3 9 12 2376076 4 114 698754
+4 0 0 0 3 3 156525
+5 4 130 3213009 8 11 138395
+6 4 4 122417 7 8 35799
+7 1 1 35905 10 12 158344
+8 0 0 0 4 4 34836
+9 19 146 3104846 13 14 278839
+10 1 112 833499 5 8 65583
+11 11 140 7197817 10 15 181210
+12 2 2 36602 9 14 791705
+13 16 146 3912752 6 7 60297
+14 0 0 0 1 1 27097
+15 1 1 681 0 0 0
+16 1 1 0 2 2 178487
+17 0 0 0 0 0 0
+18 0 0 0 3 3 211268
+19 0 0 0 2 2 57600
+20 1 1 0 3 4 59437
+21 1 1 30741 2 2 26186
+22 0 0 0 1 1 26233
+23 1 1 86880 1 1 26690
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 76 702 20995343
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+AhrefsBot/ 238 1819917 20210601233929 1
+Googlebot/ 73 7126021 20210601135539 3
+bot[\s_+:,\.\;\/\\-] 24 694431 20210604193312 1
+bingbot/ 9 371128 20210601185517 1
+SemrushBot/ 9 165541 20210601094450 4
+custo 8 762652 20210613095630 0
+favicon 2 65689 20210601025645 0
+python 1 4573 20210601005805 0
+unknown 1 740 20210602203918 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 220 1247885 0 0
+png 17 1620086 0 0
+pdf 4 5646059 0 0
+woff2 4 310064 0 0
+php 76 1790726 0 0
+js 322 2062796 0 0
+jpg 55 8280839 0 0
+jpeg 4 36888 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/wp-content/uploads/2019/10/2.6.1-Course-outcome.pdf 2 0 970912
+/wp-content/uploads/2020/12/SSR-26.10.2019.pdf 1 0 77944
+/wp-content/uploads/2019/08/dental_BDS-CURRICULUM-_rguhs-1.pdf 1 0 5649052
+/wp-content/uploads/2019/09/1.1.1-supporting-doc..pdf 1 0 5034386
+/wp-content/uploads/2020/02/RGUHS-Subject-wise-Toppers-List-1.pdf 1 0 54332
+/wp-content/uploads/2019/09/aishe-certificate.pdf 1 0 479397
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winxp 1 0
+ios_iphone 129 3
+android 145 15
+macosx12 10 7
+linux 3 3
+win7 18 18
+android10 112 2
+macosx9 1 1
+Unknown 12 12
+win10 271 15
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+firefox50.0 9 6
+firefox48.0 1 1
+chrome70.0.3538.77 2 2
+chrome91.0.4472.77 2 2
+chrome36.0.1944.0 1 1
+chrome79.0.3945.79 1 1
+chrome90.0.4430.210 1 1
+chrome83.0.4103.97 2 2
+firefox45.0 1 1
+safari12.0.2 1 1
+chrome87.0.4280.141 145 15
+chrome90.0.4430.212 268 12
+chrome85.0.4183.127 111 1
+chrome59.0.3071.109 14 14
+chrome66.0.3359.181 1 1
+Unknown 12 12
+safari 129 3
+firefox11.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210614164925
+AccompanyBot 20210601211430
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210614164925
+AccompanyBot 20210601211430
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 31 37
+From1 0 0
+From2 8 8
+From3 1 1
+From4 36 656
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://dt5oo7lsxw2oy.cloudfront.net/wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 1 457
+204 4 2080
+405 2 622
+404 1 26247
+301 23 8072
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/orientation-programme-for-1st-bds-19-20-batch-parents-meet/login 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 43
+49.32.185.49 15 145 3760043 20210601134013
+103.103.122.200 12 141 7198270 20210601123658
+116.202.113.215 6 9 2273439 20210601030857
+68.234.222.106 3 129 3180805 20210601055635
+45.7.177.8 2 2 5516 20210601003348
+1.186.42.50 2 129 3034694 20210601094654
+54.203.14.104 1 1 36155 20210601034147
+23.230.53.141 1 1 30514 20210601060253
+181.177.83.91 1 1 30623 20210601095615
+93.170.110.106 1 1 455 20210601091401
+104.171.150.63 1 1 30693 20210601060259
+157.45.152.102 1 111 829001 20210601102914
+64.233.173.21 0 1 4498 
+131.220.6.152 1 1 36149 20210601114018
+198.240.123.43 1 1 30514 20210601060248
+107.165.177.66 1 1 30696 20210601060253
+166.88.81.80 1 1 30557 20210601030205
+14.179.231.38 1 1 455 20210601091617
+187.188.32.91 1 1 455 20210601091504
+105.103.103.153 1 1 455 20210601091343
+18.236.254.182 1 1 35905 20210601074658
+122.2.120.138 1 1 455 20210601091629
+170.247.42.119 1 1 455 20210601091634
+109.92.122.201 1 1 455 20210601091431
+92.118.160.5 1 1 0 20210612203314
+78.171.63.44 1 1 455 20210601091539
+92.118.160.45 1 1 0 20210614164925
+187.171.80.42 1 1 455 20210601091605
+121.89.236.242 1 1 32204 20210601055702
+198.240.122.138 1 1 30611 20210601095610
+203.69.30.142 1 1 455 20210601091417
+92.118.160.57 1 1 152709 20210606130116
+14.232.74.131 1 1 2548 20210601095015
+89.179.119.216 1 1 35925 20210601013812
+89.163.252.30 1 1 2677 20210601005757
+223.186.6.92 1 1 681 20210601152556
+212.3.194.64 1 1 455 20210601091459
+82.222.96.247 1 1 455 20210601091422
+222.164.41.27 1 1 455 20210601091555
+92.118.160.41 1 1 86880 20210606235704
+35.161.251.164 1 1 35925 20210601034120
+120.29.122.39 1 1 455 20210601091611
+104.243.201.56 1 1 30741 20210601211430
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20210601 72 698 20755754 39
+20210606 2 2 239589 2
+20210612 1 1 0 1
+20210614 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+2mn-5mn 1
+0s-30s 41
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 27 815801 18 16
+/xmlrpc.php 14 6370 14 14
+/courses-2/ 8 245924 1 1
+/year-2016-17/ 5 151042 0 0
+/wp-login.php 4 10741 3 3
+/criteria-1/ 3 93281 0 1
+/department-of-prosthodontics-in-affiliation-with-alumni-association/ 2 61389 2 2
+/intellectual-property-rights/ 2 61028 2 2
+/mds/ 2 59656 0 0
+/anti-ragging-meeting/ 2 61234 2 2
+/hello-world/ 1 31452 0 0
+/the-quickest-easiest-way-to-idea/ 1 31609 0 1
+/workshop-on-new-manual-of-naac/ 1 30557 1 1
+/national-level-achievers/ 1 30842 0 0
+/calendar-of-events/ 1 30090 0 0
+/about-us/ 1 37787 0 0
+/course/bds/ 1 31923 0 0
+END_SIDER

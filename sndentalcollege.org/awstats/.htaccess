@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.sndentalcollege.org$ [NC]
+RewriteRule ^(.*)$ http://sndentalcollege.org/awstats/$1 [R=301,L]
